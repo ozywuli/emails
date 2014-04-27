@@ -1,0 +1,278 @@
+/**
+ * -------------------------------------------------
+ * TABLE OF CONTENTS:
+ *
+ * 1.0 RESET
+ * 2.0 IMPORTS
+ * 3.0 MIXINS
+ * 4.0 VARIABLES
+ * 5.0 EFFECTS
+ * 6.0 GLOBALS
+ * 7.0 HEADER
+ * 8.0 CONTENT
+ * 9.0 FOOTER
+ * 10.0 META
+ * --------------------------------------------------
+*/
+/**
+ * 1.0 $RESET
+ * -----------------------------------------------------------------------------
+ */
+/*------------------------------------*\
+	$RESET
+\*------------------------------------*/
+/* line 7, ../sass/_reset.scss */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 13, ../sass/_reset.scss */
+html, body {
+  background: white url("../img/grid_noise.png");
+  color: #111;
+  font-family: 'Lato', 'sans-serif';
+  font-size: 62.5%;
+  font-style: normal;
+  font-weight: normal;
+  height: 100%;
+  line-height: 1.5;
+  position: relative;
+  cursor: default;
+}
+
+/* line 38, ../sass/_reset.scss */
+body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 47, ../sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 51, ../sass/_reset.scss */
+ol, ul, li {
+  list-style: none;
+}
+
+/* line 55, ../sass/_reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 59, ../sass/_reset.scss */
+a:hover {
+  cursor: pointer;
+}
+
+/* line 63, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 68, ../sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 73, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 80, ../sass/_reset.scss */
+img,
+object,
+embed {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 86, ../sass/_reset.scss */
+object,
+embed {
+  height: 100%;
+}
+
+/* line 90, ../sass/_reset.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 96, ../sass/_reset.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+/* line 101, ../sass/_reset.scss */
+select {
+  width: 100%;
+}
+
+/* line 105, ../sass/_reset.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 109, ../sass/_reset.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 112, ../sass/_reset.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/**
+ * 2.0 $IMPORTS
+ * -----------------------------------------------------------------------------
+ */
+/**
+ * 3.0 $MIXINS
+ * -----------------------------------------------------------------------------
+ */
+/**
+ * 4.0 $VARIABLES
+ * -----------------------------------------------------------------------------
+ */
+/**
+ * 5.0 $EFFECTS
+ * -----------------------------------------------------------------------------
+ */
+/**
+ * 6.0 $GLOBALS
+ * -----------------------------------------------------------------------------
+ */
+/* line 55, ../sass/screen.scss */
+.globals {
+  height: 100%;
+  font-size: 1.6rem;
+}
+
+/* line 60, ../sass/screen.scss */
+.grid {
+  max-width: 96rem;
+  min-height: 100%;
+  margin: 0 auto;
+  border-left: 0.1rem solid #ccc;
+  border-right: 0.1rem solid #ccc;
+  background: #FFF;
+}
+
+/**
+ * 7.0 $HEADER
+ * -----------------------------------------------------------------------------
+ */
+/* line 76, ../sass/screen.scss */
+.header-container {
+  border-bottom: 0.1rem solid #ccc;
+  padding: 2rem;
+}
+
+/* line 81, ../sass/screen.scss */
+.page-title {
+  font-size: 4rem;
+  font-variant: small-caps;
+  font-weight: 700;
+  line-height: 1;
+}
+/* line 86, ../sass/screen.scss */
+.page-title a {
+  color: #555;
+}
+
+/**
+ * 8.0 $CONTENT
+ * -----------------------------------------------------------------------------
+ */
+/* line 98, ../sass/screen.scss */
+.box {
+  float: left;
+  width: 33.33%;
+  border-right: 0.1rem solid #ccc;
+  border-bottom: 0.1rem solid #ccc;
+  padding: 2rem;
+}
+/* line 105, ../sass/screen.scss */
+.box:nth-of-type(3n) {
+  border-right: 0.1rem solid transparent;
+}
+/* line 109, ../sass/screen.scss */
+.box a {
+  display: block;
+  height: 20rem;
+  overflow: hidden;
+  -webkit-transition: all 200ms ease;
+  -webkit-transition-delay: 0s;
+  -moz-transition: all 200ms ease 0s;
+  -o-transition: all 200ms ease 0s;
+  transition: all 200ms ease 0s;
+}
+/* line 115, ../sass/screen.scss */
+.box a:hover {
+  opacity: 0.8;
+}
+
+/* line 122, ../sass/screen.scss */
+.email-container {
+  padding: 2rem;
+}
+/* line 125, ../sass/screen.scss */
+.email-container .email-image {
+  float: left;
+  width: 70%;
+  padding-right: 2rem;
+}
+/* line 131, ../sass/screen.scss */
+.email-container .email-info {
+  float: left;
+  width: 30%;
+}
+
+/**
+ * 9.0 $FOOTER
+ * -----------------------------------------------------------------------------
+ */
+/* line 142, ../sass/screen.scss */
+.footer-container {
+  padding: 2rem;
+}
+/* line 145, ../sass/screen.scss */
+.footer-container .credits {
+  float: right;
+}
+
+/**
+ * 10.0 $META
+ * -----------------------------------------------------------------------------
+ */
