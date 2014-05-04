@@ -228,6 +228,15 @@ select {
  * -----------------------------------------------------------------------------
  */
 /* line 108, ../sass/screen.scss */
+.content-container {
+  padding: 2rem;
+}
+/* line 110, ../sass/screen.scss */
+.content-container h2 {
+  font-size: 3rem;
+}
+
+/* line 115, ../sass/screen.scss */
 .box {
   float: left;
   width: 33.33%;
@@ -235,11 +244,11 @@ select {
   border-bottom: 0.1rem solid #ccc;
   padding: 2rem;
 }
-/* line 115, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .box:nth-of-type(3n) {
   border-right: 0.1rem solid transparent;
 }
-/* line 119, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 .box a {
   display: block;
   height: 20rem;
@@ -250,65 +259,65 @@ select {
   -o-transition: all 200ms ease 0s;
   transition: all 200ms ease 0s;
 }
-/* line 125, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .box a:hover {
   opacity: 0.8;
 }
 @media screen and (max-width: 800px) {
-  /* line 108, ../sass/screen.scss */
+  /* line 115, ../sass/screen.scss */
   .box {
     width: 50%;
   }
-  /* line 132, ../sass/screen.scss */
+  /* line 139, ../sass/screen.scss */
   .box:nth-of-type(3n) {
     border-right: 0.1rem solid #CCC;
   }
-  /* line 135, ../sass/screen.scss */
+  /* line 142, ../sass/screen.scss */
   .box:nth-of-type(2n) {
     border-right: 0.1rem solid transparent;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 108, ../sass/screen.scss */
+  /* line 115, ../sass/screen.scss */
   .box {
     width: 100%;
     border-right: 0.1rem solid transparent;
   }
 }
 
-/* line 146, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 .email-container {
   padding: 2rem;
 }
-/* line 149, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .email-container .email-image {
   float: right;
   width: 65%;
   padding-right: 2rem;
 }
-/* line 155, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 .email-container .email-info {
   float: right;
   width: 35%;
 }
-/* line 158, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 .email-container .email-info h2 {
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1;
 }
-/* line 164, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 .email-container .email-info ul {
   margin-bottom: 2rem;
 }
 @media screen and (max-width: 700px) {
-  /* line 170, ../sass/screen.scss */
+  /* line 177, ../sass/screen.scss */
   .email-container .email-image {
     width: 100%;
     padding-right: 0;
   }
-  /* line 174, ../sass/screen.scss */
+  /* line 181, ../sass/screen.scss */
   .email-container .email-info {
     width: 100%;
     margin-bottom: 2rem;
@@ -319,11 +328,11 @@ select {
  * 9.0 $FOOTER
  * -----------------------------------------------------------------------------
  */
-/* line 188, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 .footer-container {
   padding: 2rem;
 }
-/* line 191, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .footer-container .credits {
   float: right;
 }
