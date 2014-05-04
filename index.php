@@ -13,15 +13,11 @@
         </a>
       </li>
       <li class="box">
-        <a href="gallery/ink/ink.php">
-          <img src="img/ink_screenshot.png" alt="">
+        <a href="gallery/jade_city/jade_city.php">
+          <img src="img/jade_city.jpg" alt="">
         </a>
       </li>
-      <li class="box">
-        <a href="">
-          <img src="http://placehold.it/350x150">
-        </a>
-      </li>
+
     </ul>
 
 

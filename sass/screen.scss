@@ -55,6 +55,12 @@
 .globals {
   height: 100%;
   font-size: 1.6rem;
+  a {
+    color: #EB0F26;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .grid {
@@ -85,7 +91,11 @@
   line-height: 1;
   a {
     color: #555;
+    &:hover {
+      text-decoration: none;
+    }
   }
+
 }
 
 
@@ -116,6 +126,20 @@
       opacity: 0.8;
     }
   }
+
+  @media screen and (max-width:800px) {
+    width: 50%;
+      &:nth-of-type(3n) {
+        border-right: 0.1rem solid #CCC;
+      }
+      &:nth-of-type(2n) {
+        border-right: 0.1rem solid transparent;
+      }
+  }
+  @media screen and (max-width:500px) {
+    width: 100%;
+    border-right: 0.1rem solid transparent;
+  }
 }
 
 
@@ -123,15 +147,37 @@
   padding: 2rem;
 
   .email-image {
-    float: left;
-    width: 70%;
+    float: right;
+    width: 65%;
     padding-right: 2rem;
   }
 
   .email-info {
-    float: left;
-    width: 30%;
+    float: right;
+    width: 35%;
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      font-weight: bold;
+      line-height: 1;
+    }
+    ul {
+      margin-bottom: 2rem;
+    }
   }
+
+  @media screen and (max-width: 700px) {
+    .email-image {
+      width: 100%;
+      padding-right: 0;
+    }
+    .email-info {
+      width: 100%;
+      margin-bottom: 2rem;
+
+    }
+  }
+
 }
 
 /**

@@ -17,8 +17,6 @@
 
   <!-- stylesheet -->
 
-  <!-- <link rel="stylesheet" href="css/screen.css"> -->
-
 <?php
 echo '<link rel="stylesheet" type="text/css" href="'. SCRIPT_ROOT .'css/screen.css">';
 ?>

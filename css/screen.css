@@ -178,8 +178,16 @@ select {
   height: 100%;
   font-size: 1.6rem;
 }
-
+/* line 58, ../sass/screen.scss */
+.globals a {
+  color: #EB0F26;
+}
 /* line 60, ../sass/screen.scss */
+.globals a:hover {
+  text-decoration: underline;
+}
+
+/* line 66, ../sass/screen.scss */
 .grid {
   max-width: 96rem;
   min-height: 100%;
@@ -193,29 +201,33 @@ select {
  * 7.0 $HEADER
  * -----------------------------------------------------------------------------
  */
-/* line 76, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .header-container {
   border-bottom: 0.1rem solid #ccc;
   padding: 2rem;
 }
 
-/* line 81, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .page-title {
   font-size: 4rem;
   font-variant: small-caps;
   font-weight: 700;
   line-height: 1;
 }
-/* line 86, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .page-title a {
   color: #555;
+}
+/* line 94, ../sass/screen.scss */
+.page-title a:hover {
+  text-decoration: none;
 }
 
 /**
  * 8.0 $CONTENT
  * -----------------------------------------------------------------------------
  */
-/* line 98, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .box {
   float: left;
   width: 33.33%;
@@ -223,11 +235,11 @@ select {
   border-bottom: 0.1rem solid #ccc;
   padding: 2rem;
 }
-/* line 105, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .box:nth-of-type(3n) {
   border-right: 0.1rem solid transparent;
 }
-/* line 109, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .box a {
   display: block;
   height: 20rem;
@@ -238,36 +250,80 @@ select {
   -o-transition: all 200ms ease 0s;
   transition: all 200ms ease 0s;
 }
-/* line 115, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .box a:hover {
   opacity: 0.8;
 }
+@media screen and (max-width: 800px) {
+  /* line 108, ../sass/screen.scss */
+  .box {
+    width: 50%;
+  }
+  /* line 132, ../sass/screen.scss */
+  .box:nth-of-type(3n) {
+    border-right: 0.1rem solid #CCC;
+  }
+  /* line 135, ../sass/screen.scss */
+  .box:nth-of-type(2n) {
+    border-right: 0.1rem solid transparent;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 108, ../sass/screen.scss */
+  .box {
+    width: 100%;
+    border-right: 0.1rem solid transparent;
+  }
+}
 
-/* line 122, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 .email-container {
   padding: 2rem;
 }
-/* line 125, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 .email-container .email-image {
-  float: left;
-  width: 70%;
+  float: right;
+  width: 65%;
   padding-right: 2rem;
 }
-/* line 131, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 .email-container .email-info {
-  float: left;
-  width: 30%;
+  float: right;
+  width: 35%;
+}
+/* line 158, ../sass/screen.scss */
+.email-container .email-info h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1;
+}
+/* line 164, ../sass/screen.scss */
+.email-container .email-info ul {
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 700px) {
+  /* line 170, ../sass/screen.scss */
+  .email-container .email-image {
+    width: 100%;
+    padding-right: 0;
+  }
+  /* line 174, ../sass/screen.scss */
+  .email-container .email-info {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 }
 
 /**
  * 9.0 $FOOTER
  * -----------------------------------------------------------------------------
  */
-/* line 142, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 .footer-container {
   padding: 2rem;
 }
-/* line 145, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .footer-container .credits {
   float: right;
 }
