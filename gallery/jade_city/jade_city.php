@@ -9,9 +9,9 @@
   <div class="email-info">
     <h2>Jade City Buffet</h2>
     <ul>
-      <li><p>I made this HTML email while going through the video tutorial at Lynda called <a href="http://www.lynda.com/HTML-tutorials/Creating-Responsive-HTML-Email/135374-2.html">"Creating a Responsive HTML Email</a>. Jade City Buffet is a fictional Chinese restaurant.</p></li>
+      <li><p>I made this HTML email while going through a video tutorial at Lynda called <a href="http://www.lynda.com/HTML-tutorials/Creating-Responsive-HTML-Email/135374-2.html">"Creating a Responsive HTML Email"</a>. Jade City Buffet is a fictional Chinese restaurant.</p></li>
     </ul>
-    <div><a href="https://github.com/ozywuli/emails/blob/master/gallery/ink/ink.html">See the source code on Github</a>.</div>
+    <div><a href="https://github.com/ozywuli/emails/blob/master/gallery/jade_city/jade_city.html">See the source code on Github</a>.</div>
   </div>
   <div class="email-image">
     <img src="../../img/jade_city.jpg" alt="">
