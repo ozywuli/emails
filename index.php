@@ -17,7 +17,11 @@
           <img src="img/jade_city.jpg" alt="">
         </a>
       </li>
-
+      <li class="box">
+        <a href="gallery/cha/index.php">
+          <img src="img/chaleafs.jpg" alt="">
+        </a>
+      </li>
     </ul>
 
 

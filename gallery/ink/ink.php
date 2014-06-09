@@ -7,7 +7,7 @@
 
 <div class="email-container clearfix">
   <div class="email-info">
-    <h2>Jade City Buffet</h2>
+    <h2>Ink</h2>
     <ul>
       <li><p>I made this HTML email while going through a video tutorial at Lynda called <a href="http://www.lynda.com/HTML-tutorials/Creating-Responsive-HTML-Email/135374-2.html">"Creating a Responsive HTML Email"</a>. Jade City Buffet is a fictional Chinese restaurant.</p></li>
     </ul>
